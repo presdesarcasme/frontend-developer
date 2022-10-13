@@ -15,10 +15,11 @@ h3 {
   .name {
     font-size: 58px;
     text-align: center;
+    margin-top: 20px;
   }
 
   .introduction {
-    font-size: 22px;
+    font-size: 28px;
     text-align: center;
   }
 
