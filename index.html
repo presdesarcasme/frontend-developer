@@ -2,95 +2,129 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>SheCodes</title>
-    <style>
-      :root {
-    --primary-color: #6c63ff;
-    --secondary-color: #f5f2fe;
-    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-}
-      h1, h2, h3 {
-    text-align: center;
-    margin: 0;
-      }
-      h1 {
-    display: block;
-    font-size: 96px;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-
-      h2 {
-    display: block;
-    font-size: 48px;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-      }
-      
-      h3{
-    font-size: 24px;
-    opacity: 0.7;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    }
-    
-    .navigation-links {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex:1;
-    }
-    
-    .navigation-links a {
-    margin: 20px;
-    flex-direction: row;
-    border-radius: 4px;
-    padding: 20px 15px;
-    text-decoration: none;
-    text-transform: capitalize;
-    }
-    
-
-.contact-link {
-    background: var(--primary-color);
-    box-shadow: var(--box-shadow);
-    color: white;
-}
-
-a:-webkit-any-link {
-    cursor: pointer;
-}
-
-.about-link {
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-
-    </style>
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h2>
-      👋 Hi I am
-    </h2>
-    <h1>
-      Anastasiia Lykhohrai
-    </h1>
-    <h3>
-      ​💙💛Front-end Developer, based in Ukraine
-    </h3>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container fluid">
+          <a class="navbar-brand" href="/">Anastasiia Lykhohrai</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html#contact">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h2 class="index-h2">👋 Hi I am</h2>
+      <h1>Anastasiia Lykhohrai</h1>
+    </div>
+    <h3>​💙💛🇺🇦​ Front-end developer, based in Ukraine</h3>
     <div class="navigation-links">
-      <a href="about.html#contact" class="contact-link"> Contact me </a>
-      <a href="about.html" class="about-link"> About me </a>
+      <a href="about.html#contact" class="contact-link">Contact me</a>
+      <a href="about.html" class="about-link">About me</a>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 p-1 mt-5">
+          <img
+            src="../images/yoga.png"
+            class="img-fluid index-img"
+            alt="yoga"
+          />
+        </div>
+        <div class="col-md-6 p-1 mt-5">
+          <h2 class="text-start">Yoga app</h2>
+          <p class="text-start ps-0">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            debitis aliquam quae ducimus velit obcaecati dicta architecto,
+            veniam ea sapiente.
+          </p>
+          <a
+            href="http://"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-decoration-none"
+            >Launch Yoga app</a
+          >
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 p-1 mt-5">
+          <h2 class="text-start">Weather app</h2>
+          <p class="text-start ps-0">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+            facilis autem aliquam rerum fugit incidunt molestias porro soluta
+            totam repellat.
+          </p>
+          <a
+            href="http://"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-decoration-none"
+            >Launch Weather app</a
+          >
+        </div>
+        <div class="col-md-6 p-1 mt-5">
+          <img src="../images/weather.png" class="img-fluid index-img" alt="" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 p-1 mt-5">
+          <img src="../images/yogurt.png" class="img-fluid index-img" alt="" />
+        </div>
+        <div class="col-md-6 p-1 mt-5">
+          <h2 class="text-start">Yogurt app</h2>
+          <p class="text-start ps-0">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+            tempora aliquam, odit quisquam possimus laborum aut quae quis at
+            corporis.
+          </p>
+          <a
+            href="http://"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-decoration-none"
+            >Launch Yogurt app</a
+          >
+        </div>
+      </div>
+    </div>
   </body>
 </html>
