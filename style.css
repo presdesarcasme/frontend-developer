@@ -13,10 +13,12 @@ h3 {
 
 @media (max-width: 640px) {
   h1 {
-    font-size: 60px;
+    font-size: 52px;
+    text-align: center;
   }
   h3 {
     font-size: 22px;
+    text-align: center;
   }
 }
 
