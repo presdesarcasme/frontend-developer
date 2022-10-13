@@ -15,12 +15,13 @@ h3 {
   .name {
     font-size: 58px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
   .introduction {
     font-size: 28px;
     text-align: center;
+    margin-top: 10px;
   }
 
   p {
@@ -30,6 +31,10 @@ h3 {
 
   .smaller {
     font-size: 36px;
+  }
+
+  .yougurtapp {
+    margin-top: 0;
   }
 }
 
