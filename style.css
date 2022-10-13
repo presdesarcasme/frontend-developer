@@ -11,6 +11,15 @@ h3 {
   margin: 0;
 }
 
+@media (max-width: 640px) {
+  h1 {
+    font-size: 60px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+}
+
 h1 {
   font-size: 96px;
 }
