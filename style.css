@@ -11,7 +11,7 @@ h3 {
   margin: 0;
 }
 
-@media (max-width: 640px) {
+@media only screen and (max-width: 600px) {
   h1 {
     font-size: 36px;
     text-align: center;
